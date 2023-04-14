@@ -19,7 +19,7 @@ public class AlertBoxDemo2 {
 		driver.findElement(By.xpath("/html/body/button")).click();
 		Thread.sleep(2000);
 		Alert alert = driver.switchTo().alert();
-		alert.sendKeys("Vasavi");
+		alert.sendKeys("Teju");
 		alert.accept();
 		Thread.sleep(2000);
 		driver.switchTo().alert().accept();
